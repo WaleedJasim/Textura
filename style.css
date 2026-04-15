@@ -1,0 +1,610 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8dfd1;
+    color: #222222;
+    margin: 0;
+}
+
+
+header {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    height: 80px;
+    padding: 0 30px;
+    border-bottom: 2px solid #000000;
+    overflow: hidden;
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+    font-size: 36px;
+    font-family: Garamond;
+    line-height: 80px;
+}
+
+nav {
+    float: right;
+    margin: 0;
+    line-height: 80px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 22px;
+    font-family: Garamond;
+    line-height: 80px;
+}
+
+nav a:hover {
+    color: #d4a373;
+    border-bottom: 2px solid #d4a373;
+}
+
+.slogan {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/featuredimage.JPEG");
+    background-size: cover;
+    height: 500px;
+    background-position: center 80%;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slogan h2 {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Garamond;
+    margin: 0;
+}
+
+
+.welcome-content,
+.why-content {
+    text-align: center;
+    padding: 80px 30px;
+}
+
+.services-content {
+    text-align: left;
+    padding: 80px 30px;
+    font-size: 20px;
+}
+
+.services-content h2 {
+    text-align: center;
+}
+
+
+.content-box {
+    background-color: #ffffff;
+    border: 1px solid #c8b6a6;
+    margin: 0 auto;
+    padding: 35px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.small {
+    width: 60%;
+}
+
+.large {
+    width: 82%;
+    min-height: 180px;
+}
+
+.content-box h2 {
+    margin-top: 0;
+    font-size: 28px;
+    color: #000000;
+    font-family: Garamond, serif;
+}
+
+.content-box p {
+    line-height: 1.7;
+    font-size: 20px;
+}
+
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 25px 30px;
+    overflow: hidden;
+}
+
+.footer-details {
+    float: left;
+    line-height: 1.8;
+}
+
+.footer-details p {
+    margin: 0 0 8px 0;
+    font-family: Garamond;
+    font-size: 20px;
+}
+
+.footer-nav {
+    float: right;
+    margin-top: 18px;
+    font-family: Garamond;
+}
+
+.footer-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 15px;
+    font-family: Garamond;
+    font-size: 20px;
+}
+
+.footer-nav a:hover {
+    color: #d4a373;
+}
+
+.portfolio-heading{
+    margin-top: 40px;
+    margin-bottom: 65px;
+}
+
+.portfolio-heading h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: Garamond;
+}
+
+.portfolio-heading p {
+    font-family: Garamond;
+    font-size: 48px;
+    text-align: center;
+    margin: 0;
+}
+
+.portfolio-category {
+text-align: center;
+margin-bottom: 70px;
+}
+
+.portfolio-box {
+width: 85%;
+margin: 0 auto;
+padding: 20px;
+border: 2px solid #000000;
+background-color: #ffffff;
+}
+
+.portfolio-images {
+display: flex;
+justify-content: center;
+gap: 20px;
+margin-bottom: 20px;
+}
+
+.portfolio-images img {
+width: 30%;
+height: auto;
+object-fit: cover;
+border: 2px solid #000000;
+}
+
+.portfolio-box h3 {
+font-family: Garamond;
+font-size: 28px;
+margin:0;
+text-align: center;
+}
+
+.wedding-layout {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+margin-bottom: 25px;
+
+}
+
+.wedding-left,.wedding-right, .wedding-center{
+width: 30%;
+}
+
+.wedding-left img, .wedding-right img, .wedding-center img {
+width: 100%;
+height: auto;
+object-fit: cover;
+border: 2px solid #000000;
+}
+
+.services-heading{
+    width: 85%;
+    margin: 80px auto 40px auto;
+}
+
+.services-heading h2{
+    font-family: Garamond;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.services-heading p {
+    font-family: Garamond;
+    font-size: 36px;
+    margin-top: 0;
+}
+
+.service-block {
+    width: 85%;
+    margin: 0 auto 40px auto;
+}
+
+.service-block h3 {
+    text-align: center;
+    font-size: 24px;
+    font-family: Garamond;
+    margin-bottom: 10px;
+}
+
+.services-closing {
+    text-align: left;
+    width: 85%;
+    margin: 22px auto;
+    font-family: Garamond;
+}
+
+.services-image {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/serviceimage.jpg");
+    background-size: cover;
+    height: 400px;
+    background-position: center;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-image h2 {
+    font-size: 42px;
+    font-weight: bold;
+    font-family: Garamond;
+    margin:0;
+}
+
+.testimonials-heading {
+    text-align: center;
+    margin: 80px 0 40px 0;
+}
+
+.testimonials-heading h2 {
+    font-family: Garamond;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.testimonials-heading p {
+    font-family: Garamond;
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.testimonials-box {
+     display: inline-block;
+    width: 28%;
+    margin: 15px;
+    padding: 30px 25px;
+    border: 1px solid #c8b6a6;
+    background-color: #ffffff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    vertical-align: top;
+    border-radius: 12px;
+    text-align: left;
+}
+
+.testimonials-grid{
+    width: 90%;
+    margin: 0 auto 90px auto;
+   text-align: center;
+}
+
+.quote-symbol{
+font-size: 40px;
+color: black;
+margin-bottom: 15px;
+font-family: Garamond;
+}
+
+.testimonials-text {
+    font-family: Garamond;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.testimonials-line{
+    border-top: 1px solid #c8b6a6;
+    margin: 15px 0;
+}
+
+.testimonials-box h3 {
+    font-family: Garamond;
+    font-size: 24px;
+    margin: 0 0 5px 0;
+}
+
+.client-type {
+    font-family: Garamond;
+    font-size: 16px;
+    color: #666666;
+}
+
+.contact-page{
+    width: 90%;
+    margin: 60px auto;
+    overflow: hidden;
+}
+
+.contact-image{
+    float: left;
+    width: 58%;
+}
+
+.contact-image img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    display: block;
+}
+
+.contact-details-box {
+    float: right;
+    width: 38%;
+    background-color: #ffffff;
+    border: 1px solid #c8b6a6;
+    padding: 30px 25px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+}
+
+.contact-details-box h2 {
+    font-family: Garamond;
+    font-size: 56px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.contact-location{
+    font-family: Garamond;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.contact-intro{
+    font-family: Garamond;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.contact-links a{
+    display: block;
+    font-family: Garamond;
+    font-size: 30px;
+    color: #222222;
+    text-decoration: none;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #c8b6a6;
+    padding-bottom: 10px;
+}
+
+.contact-links a:hover {
+    color: #d4a373;
+    border-bottom: 1px solid #d4a373;
+}
+
+.contact-info{
+    margin-top: 40px;
+}
+
+.contact-info p {
+    font-family: Garamond;
+    font-size: 22px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+@media screen and (max-width: 768px) {
+    header{
+        height: auto;
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    header h1 {
+        float: none;
+        display: block;
+        font-size: 24px;
+        line-height: normal;
+        margin: 10px 0;
+    }
+
+    nav {
+        float: none;
+        line-height: normal;
+        margin: 0 0 10px 0;
+        text-align: center;
+    }
+
+    nav a {
+        display: inline-block;
+        font-size: 16px;
+        line-height: normal;
+        margin: 5px 8px;
+    }
+
+    .slogan,
+    .services-image {
+        height: 300px;
+        background-position: center;
+        padding: 20px;
+    }
+
+    .slogan h2,
+    .services-image h2 {
+        font-size: 28px;
+        line-height: 1.3;
+        text-align: center;
+    }
+
+    .small,
+    .large,
+    .portfolio-box,
+    .services-heading,
+    .service-block,
+    .services-closing,
+    .testimonials-grid,
+    .contact-page {
+        width: auto;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .content-box, .portfolio-box, .testimonials-box, .contact-details-box, .contact-image img {
+        box-sizing: border-box;
+    }
+
+    .content-box {
+        padding: 20px;
+    }
+
+    .welcome-content,
+    .why-content,
+    .services-content {
+        padding: 40px 20px;
+    }
+
+    .portfolio-heading {
+        margin-top: 25px;
+        margin-bottom: 35px;
+    }
+
+    .portfolio-heading p {
+        font-size: 34px;
+    }
+
+    .portfolio-images {
+        display: block;
+        text-align: center;
+    }
+
+    .portfolio-images img {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .wedding-layout {
+        display: block;
+    }
+
+    .wedding-left,
+    .wedding-right,
+    .wedding-center {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .services-heading {
+        margin: 40px auto 30px auto;
+    }
+
+    .services-heading h2 {
+        font-size: 28px;
+    }
+
+    .services-heading p {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .service-block h3 {
+        font-size: 22px;
+    }
+
+    .testimonials-heading {
+        margin: 40px 0 25px 0;
+        text-align: center;
+    }
+
+    .testimonials-heading h2 {
+        font-size: 28px;
+    }
+
+    .testimonials-heading p {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .testimonials-box {
+        display: block;
+        width: 90%;
+        margin: 15px auto;
+    }
+
+    .contact-page {
+        overflow: visible;
+        margin: 30px auto;
+    }
+
+    .contact-image,
+    .contact-details-box {
+        float: none;
+        width: 100%;
+    }
+
+    .contact-image img {
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .contact-details-box h2 {
+        font-size: 38px;
+    }
+
+    .contact-location,
+    .contact-intro,
+    .contact-info p {
+        font-size: 18px;
+    }
+
+    .contact-links a {
+        font-size: 24px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .footer-details,
+    .footer-nav {
+        float: none;
+        margin-top: 10px;
+    }
+
+    .footer-nav a {
+        display: inline-block;
+        margin: 5px 8px;
+    }
+
+
+}
+
+    
+
